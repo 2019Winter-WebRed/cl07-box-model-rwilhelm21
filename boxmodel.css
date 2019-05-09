@@ -1,0 +1,42 @@
+/*
+* Ruth Wilhelm
+* 5/9/19 
+* Box Model Practice 
+*/ 
+
+/* The universial selector */
+
+* { 
+    margin: 0; 
+    padding: 0; 
+} 
+
+h1 {
+    border: 1px dashed black; 
+    margin: 30px 10px 10px;
+    padding: 20px;
+    font-size: 50px
+}
+
+main { 
+    border: 5px solid black; 
+    padding: 0.1px; 
+    margin: 30px; 
+}
+
+p {
+    border: 1px dashed black; 
+    margin: 10px; 
+    padding: 20px; 
+    font-size: 120%; 
+}
+
+/* Body attributes here */
+
+body { 
+    background-color: white; 
+    font-family: "Times New Roman", Times, serif;  
+    border: 2px dashed black; 
+    margin: 10px; 
+    padding: 10px; 
+} 
